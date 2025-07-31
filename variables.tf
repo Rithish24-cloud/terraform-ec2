@@ -1,9 +1,9 @@
 variable "aws_region" {
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable "ami_id" {
-  default = "ami-0c55b159cbfafe1f0"  # Use correct AMI for your region
+  default = "ami-03bb6d83c60fc5f7c"  # Use correct AMI for your region
 }
 
 variable "instance_type" {
